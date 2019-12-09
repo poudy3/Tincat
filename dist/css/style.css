@@ -1,5 +1,46 @@
+input:focus {
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
-  color: red;
+  font-family: "Pacifico", cursive;
+  color: #e67e22;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  padding: 20px;
+  font-size: 1.8rem;
+  border: none;
+  border-bottom: 1px solid #34495e;
+  background: transparent;
+}
+
+.form-container input[type=submit] {
+  margin-top: 2rem;
+  border: 1px solid #34495e;
+  transition: all 0.3s;
+}
+
+.form-container input[type=submit]:hover {
+  background: #34495e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-container h1 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
