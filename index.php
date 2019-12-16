@@ -11,6 +11,7 @@
             <input type="password" placeholder="confirm password" name="confirm_password">
             <input type="email" placeholder="email" name="email" required>
             <input type="submit" value="register">
+        
         </form>
     </div>
 
